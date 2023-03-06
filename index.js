@@ -10,7 +10,7 @@ require('./models/Blog');
 require('./services/passport');
 require('./services/cache');
 
-// mongoose.Promise = global.Promise;
+mongoose.Promise = global.Promise;
 
 const app = express();
 
